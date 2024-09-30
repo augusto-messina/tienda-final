@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "category": "puma",
+    "licence": "Star Wars",
+    "name": "Zapatillas Puma Palermo Vintage",
+    "description": "Las Zapatillas Puma Palermo Vintage no te pueden faltar en tus salidas si lo que buscás es el máximo estilo.",
+    "img": {
+    "front": "src/assets/zapatillas/puma-zapatilla-2.png",
+    "back": "src/assets/zapatillas/puma-zapatilla-1.png"
+    },
+    "sku": "STW001001",
+    "price": 169.999,
+    "dues": 3,
+    "stock": 8,
+    "sells": 11
+  },
+  {
+    "id": 2,
+    "category": "nike",
+    "licence": "Star Wars",
+    "name": "Zapatillas Jordan Air 1 Mid Se Craft Hombre",
+    "description": "Las Zapatillas Jordan Air 1 Mid Se Craft Hombre es la definición de elegancia en un diseño clásico.",
+    "img": {
+    "front": "src/assets/zapatillas/zapatillas-jordan.png",
+    "back": "src/assets/zapatillas/zapatillas-jordan-2.png"
+    },
+    "sku": "STW001002",
+    "price": 259.999,
+    "dues": 6,
+    "stock": 8,
+    "sells": 5
+  },
+  {
+    "id": 3,
+    "category": "vans",
+    "licence": "Star Wars",
+    "name": "Zapatillas Vans Knu Skool",
+    "description": "Las Zapatillas Vans Knu Skool son una combinación de funcionalidad y estilo.",
+    "img": {
+    "front": "src/assets/zapatillas/vans-knu-1.png",
+    "back": "src/assets/zapatillas/vans-knu-2.png"
+    },
+    "sku": "STW001003",
+    "price": 199.199,
+    "dues": 6,
+    "stock": 8,
+    "sells": 5
+  },
+  {
+    "id": 4,
+    "category": "nike",
+    "licence": "Star Wars",
+    "name": "Remera Urbana Nike Club Essentials Mujer",
+    "description": "Sentite cómoda y fresca las 24 horas del día con la Remera Urbana Nike Club Essentials Mujer.",
+    "img": {
+    "front": "src/assets/ropa/remera-nike-1.jpeg",
+    "back": "src/assets/ropa/remera-nike-2.jpeg"
+    },
+    "sku": "STW001004",
+    "price": 39.999,
+    "dues": 6,
+    "stock": 8,
+    "sells": 17
+  },
+  {
+    "id": 5,
+    "category": "the north face",
+    "licence": "Pokemon",
+    "name": "The North Face Campera W NUPTSE SHORT JACKET",
+    "description": "La Nuptse ha estado brindando una calidez que cambia el juego desde 1992.",
+    "img": {
+    "front": "src/assets/ropa/campera-the-1.jpg",
+    "back": "src/assets/ropa/campera-the-2.jpg"
+    },
+    "sku": "PKM001001",
+    "price": 600.999,
+    "dues": 6,
+    "stock": 8,
+    "sells": 5
+  },
+  {
+    "id": 6,
+    "category": "puma",
+    "licence": "Pokemon",
+    "name": "Buzo Puma Downtown Graphic Mujer",
+    "description": "El Buzo Puma Downtown Graphic Mujer se adapta a tu vida activa y al movimiento de la ciudad.",
+    "img": {
+    "front":"src/assets/ropa/buzo-puma-1.jpeg",
+    "back": "src/assets/ropa/buzo-puma-2.jpeg"
+    },
+    "sku": "PKM001002",
+    "price": 89.999,
+    "dues": 3,
+    "stock": 8,
+    "sells": 13
+  },
+  {
+    "id": 7,
+    "category": "nike",
+    "licence": "Pokemon",
+    "name": "Zapatillas Nike Air More Uptempo '96",
+    "description": "La clave está en el A-I-R. Las Zapatillas Nike Air More Uptempo '96 Hombre renuevan un original que ha reinado por más de 20 años.",
+    "img": {
+    "front": "src/assets/zapatillas/zapatillas-nike-1.jpeg",
+    "back": "src/assets/zapatillas/zapatillas-nike-2.jpeg"
+    },
+    "sku": "PKM00103",
+    "price": 329.999,
+    "dues": 9,
+    "stock": 8,
+    "sells": 17
+  },
+  {
+    "id": 8,
+    "category": "nike",
+    "licence": "Pokemon",
+    "name": "Zapatillas Nike Dunk Low Retro Bttys Hombre",
+    "description": "El Nike Dunk Low Retro, creado para la cancha pero que luego dominó las calles, regresa con las Zapatillas Nike Dunk Low Retro Bttys.",
+    "img": {
+    "front": "src/assets/zapatillas/zapatillas-nike-5.jpeg",
+    "back": "src/assets/zapatillas/zapatillas-nike-6.jpeg"
+    },
+    "sku": "PKM001004",
+    "price": 171.999,
+    "dues": 3,
+    "stock": 8,
+    "sells": 5
+  },
+  {
+    "id": 9,
+    "category": "nike",
+    "licence": "Pokemon",
+    "name": "Zapatillas Nike Court Vision De Mujer",
+    "description": "Las zapatillas Nike Court Vision Low para mujeres combinan el estilo Fastbreak del baloncesto de los 80 y muestran su lado casual.",
+    "img": {
+    "front": "src/assets/zapatillas/zapatillas-nike-3.webp",
+    "back": "src/assets/zapatillas/zapatillas-nike-4.webp"
+    },
+    "sku": "PKM001005",
+    "price": 134.999,
+    "dues": 3,
+    "stock": 8,
+    "sells": 5
+  },
+  {
+    "id": 10,
+    "category": "nike",
+    "licence": "Harry Potter",
+    "name": "Buzo Nike Sportswear Hombre",
+    "description": "Complementá tus looks con el Buzo Nike Sportswear Hombre. Para entrenar o vestir cómodo durante tus actividades diarias.",
+    "img": {
+    "front": "src/assets/ropa/buzo-nike-1.jpeg",
+    "back": "src/assets/ropa/buzo-nike-2.jpeg"
+    },
+    "sku": "HPT001001",
+    "price": 99.359,
+    "dues": 3,
+    "stock": 8,
+    "sells": 5
+  },
+  {
+    "id": 11,
+    "category": "puma",
+    "licence": "Harry Potter",
+    "name": "Short Puma Team 8 Wv Hombre",
+    "description": "El Short Puma Team 8 Wv Hombre es todo lo que necesitás para estar en lo más alto de la moda. ",
+    "img": {
+    "front": "src/assets/ropa/pantalon-puma-1.jpeg",
+    "back": "src/assets/ropa/pantalon-puma-2.jpeg"
+    },
+    "sku": "HPT001002",
+    "price": 79.999,
+    "dues": 3,
+    "stock": 8,
+    "sells": 5
+  },
+  {
+    "id": 12,
+    "category": "adidas",
+    "licence": "Harry Potter",
+    "name": "Pantalón adidas Flames Hombre",
+    "description": "Cuando tu estilo se trata de hacer una declaración, busca este Pantalón adidas Flames Hombre.",
+    "img": {
+    "front": "src/assets/ropa/pantalon-adidas-1.png",
+    "back": "src/assets/ropa/pantalon-adidas-2.png"
+    },
+    "sku": "HPT001003",
+    "price": 139.999,
+    "dues": 3,
+    "stock": 8,
+    "sells": 17
+  },
+  {
+    "id": 13,
+    "category": "nike",
+    "licence": "Harry Potter",
+    "name": "Nike Academy Team",
+    "description": "El bolso de entrenamiento Nike Academy Team ofrece un diseño duradero para organizar tus cosas.",
+    "img": {
+    "front": "src/assets/accesorios/bolso-nike-1.png",
+    "back": "src/assets/accesorios/bolso-nike-2.png"
+    },
+    "sku": "HPT001004",
+    "price": 83.999,
+    "dues": 3,
+    "stock": 13,
+    "sells": 5
+  },
+  {
+    "id": 14,
+    "category": "nike",
+    "licence": "Harry Potter",
+    "name": "Gorra Jordan Club",
+    "description": "La Gorra Jordan Club combina estilo y funcionalidad en un diseño clásico.",
+    "img": {
+    "front": "src/assets/accesorios/gorra-nike-1.png",
+    "back": "src/assets/accesorios/gorra-nike-2.png"
+    },
+    "sku": "HPT001004",
+    "price": 37.499,
+    "dues": 3,
+    "stock": 13,
+    "sells": 5
+  },
+  {
+    "id": 15,
+    "category": "nike",
+    "licence": "Harry Potter",
+    "name": "Nike Everyday Lightweight",
+    "description": "Dalo todo en los entrenamientos con las medias Nike Everyday, ayudan a mantener los pies cómodos y secos.",
+    "img": {
+    "front": "src/assets/accesorios/medias-nike-1.png",
+    "back": "src/assets/accesorios/medias-nike-2.png"
+    },
+    "sku": "HPT001004",
+    "price": 12.999,
+    "dues": 3,
+    "stock": 13,
+    "sells": 5
+  }
+]
