@@ -1,41 +1,55 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import {collection, getDocs, query, where } from "firebase/firestore";
+import { db } from "../../config/firebase.config";
+
+
 
 import ItemList from "../../components/ItemList";
 import Spinner from "../../components/Spinner";
 
+
 const Store = () => {
- const { category } = useParams();
+const { category } = useParams();
 
- let [ items, setItems ] = useState([]);
- let [ loading, setLoading ] = useState(false);
- let [ fallback, setFallback ] = useState(false);
+let [ items, setItems ] = useState([]);
+let [ loading, setLoading ] = useState(false);
+let [ fallback, setFallback ] = useState({
+  visible: false,
+  message:''
+});
 
- useEffect(() => {
-     setLoading(true);
-     fetch('/src/data/items.json')
-     .then(res => res.json())
-     .then(data => {
-       if (category) {
-         setItems(data.filter(item => item.category === category))
-       } else {
-         setItems(data);
-       }
-     })
-     .catch(e => {
-       setFallback(true);
-     })
-     .finally(() => setLoading(false));
- }, []);
+
+useEffect(() => {
+    setLoading(true);
+    const itemsCollection = category
+    ? query(collection(db, 'items'), where('category', '==', category))
+    : collection(db, 'items');
+
+    getDocs(itemsCollection)
+    .then ((snapshot) => {
+      if (snapshot.size === 0) {
+        setFallback({visible: true, message: "No encontramos resultados"});
+      } else {
+        setItems(snapshot.docs.map(doc => ({id: doc.id, ...doc.data()})));
+      }
+    })
+    .catch((err) => {
+      console.error("Error al consultar los datos", err)
+      setFallback({visible: true, message: "No pudimos cargar los datos"});
+    })
+    .finally(() => setLoading(false));
+
+}, []);
 
 
   return (
     <main className="store">
-     { loading
+    { loading
       ? <Spinner />
-      : fallback
+      : fallback.visible
         ? (
-            <p>No pudimos cargar los datos</p>
+            <p>No encontramos resultados</p>
           )
         : (
           <>
@@ -49,5 +63,6 @@ const Store = () => {
     </main>
   );
 }
+
 
 export default Store;

@@ -1,24 +1,7 @@
 [
   {
-    "id": 1,
-    "category": "puma",
-    "licence": "Star Wars",
-    "name": "Zapatillas Puma Palermo Vintage",
-    "description": "Las Zapatillas Puma Palermo Vintage no te pueden faltar en tus salidas si lo que buscás es el máximo estilo.",
-    "img": {
-    "front": "src/assets/zapatillas/puma-zapatilla-2.png",
-    "back": "src/assets/zapatillas/puma-zapatilla-1.png"
-    },
-    "sku": "STW001001",
-    "price": 169.999,
-    "dues": 3,
-    "stock": 8,
-    "sells": 11
-  },
-  {
-    "id": 2,
     "category": "nike",
-    "licence": "Star Wars",
+    "licence": "nike",
     "name": "Zapatillas Jordan Air 1 Mid Se Craft Hombre",
     "description": "Las Zapatillas Jordan Air 1 Mid Se Craft Hombre es la definición de elegancia en un diseño clásico.",
     "img": {
@@ -32,9 +15,8 @@
     "sells": 5
   },
   {
-    "id": 3,
     "category": "vans",
-    "licence": "Star Wars",
+    "licence": "vans",
     "name": "Zapatillas Vans Knu Skool",
     "description": "Las Zapatillas Vans Knu Skool son una combinación de funcionalidad y estilo.",
     "img": {
@@ -48,9 +30,8 @@
     "sells": 5
   },
   {
-    "id": 4,
     "category": "nike",
-    "licence": "Star Wars",
+    "licence": "nike",
     "name": "Remera Urbana Nike Club Essentials Mujer",
     "description": "Sentite cómoda y fresca las 24 horas del día con la Remera Urbana Nike Club Essentials Mujer.",
     "img": {
@@ -64,9 +45,8 @@
     "sells": 17
   },
   {
-    "id": 5,
     "category": "the north face",
-    "licence": "Pokemon",
+    "licence": "the north face",
     "name": "The North Face Campera W NUPTSE SHORT JACKET",
     "description": "La Nuptse ha estado brindando una calidez que cambia el juego desde 1992.",
     "img": {
@@ -80,9 +60,8 @@
     "sells": 5
   },
   {
-    "id": 6,
     "category": "puma",
-    "licence": "Pokemon",
+    "licence": "puma",
     "name": "Buzo Puma Downtown Graphic Mujer",
     "description": "El Buzo Puma Downtown Graphic Mujer se adapta a tu vida activa y al movimiento de la ciudad.",
     "img": {
@@ -96,9 +75,8 @@
     "sells": 13
   },
   {
-    "id": 7,
     "category": "nike",
-    "licence": "Pokemon",
+    "licence": "nike",
     "name": "Zapatillas Nike Air More Uptempo '96",
     "description": "La clave está en el A-I-R. Las Zapatillas Nike Air More Uptempo '96 Hombre renuevan un original que ha reinado por más de 20 años.",
     "img": {
@@ -112,9 +90,8 @@
     "sells": 17
   },
   {
-    "id": 8,
     "category": "nike",
-    "licence": "Pokemon",
+    "licence": "nike",
     "name": "Zapatillas Nike Dunk Low Retro Bttys Hombre",
     "description": "El Nike Dunk Low Retro, creado para la cancha pero que luego dominó las calles, regresa con las Zapatillas Nike Dunk Low Retro Bttys.",
     "img": {
@@ -128,9 +105,8 @@
     "sells": 5
   },
   {
-    "id": 9,
     "category": "nike",
-    "licence": "Pokemon",
+    "licence": "nike",
     "name": "Zapatillas Nike Court Vision De Mujer",
     "description": "Las zapatillas Nike Court Vision Low para mujeres combinan el estilo Fastbreak del baloncesto de los 80 y muestran su lado casual.",
     "img": {
@@ -144,9 +120,8 @@
     "sells": 5
   },
   {
-    "id": 10,
     "category": "nike",
-    "licence": "Harry Potter",
+    "licence": "nike",
     "name": "Buzo Nike Sportswear Hombre",
     "description": "Complementá tus looks con el Buzo Nike Sportswear Hombre. Para entrenar o vestir cómodo durante tus actividades diarias.",
     "img": {
@@ -160,9 +135,8 @@
     "sells": 5
   },
   {
-    "id": 11,
     "category": "puma",
-    "licence": "Harry Potter",
+    "licence": "puma",
     "name": "Short Puma Team 8 Wv Hombre",
     "description": "El Short Puma Team 8 Wv Hombre es todo lo que necesitás para estar en lo más alto de la moda. ",
     "img": {
@@ -176,9 +150,8 @@
     "sells": 5
   },
   {
-    "id": 12,
     "category": "adidas",
-    "licence": "Harry Potter",
+    "licence": "adidas",
     "name": "Pantalón adidas Flames Hombre",
     "description": "Cuando tu estilo se trata de hacer una declaración, busca este Pantalón adidas Flames Hombre.",
     "img": {
@@ -192,9 +165,8 @@
     "sells": 17
   },
   {
-    "id": 13,
     "category": "nike",
-    "licence": "Harry Potter",
+    "licence": "nike",
     "name": "Nike Academy Team",
     "description": "El bolso de entrenamiento Nike Academy Team ofrece un diseño duradero para organizar tus cosas.",
     "img": {
@@ -208,9 +180,8 @@
     "sells": 5
   },
   {
-    "id": 14,
     "category": "nike",
-    "licence": "Harry Potter",
+    "licence": "nike",
     "name": "Gorra Jordan Club",
     "description": "La Gorra Jordan Club combina estilo y funcionalidad en un diseño clásico.",
     "img": {
@@ -224,9 +195,8 @@
     "sells": 5
   },
   {
-    "id": 15,
     "category": "nike",
-    "licence": "Harry Potter",
+    "licence": "nike",
     "name": "Nike Everyday Lightweight",
     "description": "Dalo todo en los entrenamientos con las medias Nike Everyday, ayudan a mantener los pies cómodos y secos.",
     "img": {
