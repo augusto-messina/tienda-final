@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Icon } from '@iconify/react';
 
 import { CartContext } from "../../context/cartContext";
-import Pill from '../pill';
+import Pill from '../Pill';
 
 const CartWidget = () => {
 

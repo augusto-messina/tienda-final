@@ -1,3 +1,5 @@
+
+import { Link } from "react-router-dom";
 import logo from '../../assets/logo.svg';
 import Menu from '../../components/Menu';
 import CartWidget from '../../components/CartWidget';
@@ -28,10 +30,10 @@ const Header = () => {
           </figure>
         </a>
         <Menu className="navbar" links={links}>
-          <li>
-            <a href="" className='navbar__link-button'>
-              <CartWidget quantity={0} />
-            </a>
+        <li>
+            <Link to="/Carrito" className="navbar__link-button">
+              <CartWidget quantity={0}/>
+            </Link>
           </li>
         </Menu>
       </nav>
