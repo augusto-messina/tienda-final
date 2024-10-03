@@ -1,0 +1,82 @@
+
+  .view-more {
+    background-color: #ce2121;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .container {
+    padding: 20px;
+
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 4.375rem;
+        font-size: 30px;
+        color: #111111,;
+        font-family: 'Nike', sans-serif;
+        position: relative;
+        bottom: 30px;
+    }
+  
+    .sneaker-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); // Para tres columnas
+      gap: 20px; // Espacio entre las tarjetas
+  
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr); // Dos columnas en pantallas más pequeñas
+      }
+  
+      .sneaker-card {
+        background: #f8f8f8; // Fondo para las tarjetas
+        border: 1px solid #ddd; // Borde
+        border-radius: 8px; // Esquinas redondeadas
+        padding: 15px;
+        text-align: center;
+  
+        .sneaker-image {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  
+    .view-more {
+      display: block;
+      margin: 20px auto; // Centrar el botón
+    }
+  }
+
+.home-b{
+    background-color: #ce2121; // Color de fondo
+    color: #fff; // Color del texto
+    border: none; // Sin borde
+    border-radius: 5px; // Esquinas redondeadas
+    padding: 10px 20px; // Espaciado interno
+    font-size: 16px; // Tamaño de fuente
+    cursor: pointer; // Cambia el cursor al pasar el ratón
+    transition: background-color 0.3s, transform 0.2s; // Efecto de transición
+    top: 7px;
+    position: relative;
+  
+    &:hover {
+      background-color: #ce2121; // Color de fondo al pasar el ratón
+      transform: scale(1.05); // Efecto de aumento
+    }
+  
+    &:focus {
+      outline: none; // Sin contorno al enfocar
+      box-shadow: 0 0 0 2px rgba(148, 13, 13, 0.5); // Sombra al enfocar
+    }
+  
+    &:active {
+      transform: scale(0.95); // Efecto de pulsación al hacer clic
+    }
+}
