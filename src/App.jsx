@@ -5,7 +5,7 @@ import BaseLayout from "./layout/BaseLayout";
 import Home from './pages/Home';
 import Store from './pages/Store';
 import Detail from './pages/Detail';
-import Carrito from './pages/Carrito';
+import Carrito from './pages/Carrito'
 import Update from './pages/Update';
 import Error404 from './pages/404';
 
